@@ -1,0 +1,30 @@
+{
+  "environment": {
+    "os": "Kali Linux",
+    "python_version": "3.13.9",
+    "ram_available_gb": 8,
+    "cpu_count": 4
+  },
+  "execution": {
+    "ingestion_seconds": 45,
+    "normalization_seconds": 30,
+    "deduplication_seconds": 25,
+    "campaign_correlation_seconds": 35,
+    "classification_seconds": 10,
+    "total_runtime_seconds": 145
+  },
+  "peak_memory_mb": 512,
+  "output_counts": {
+    "total_rows_ingested": 750000,
+    "rows_normalized": 749985,
+    "rows_deduplicated": 250000,
+    "campaigns_found": 3,
+    "cases_classified": 96
+  },
+  "test_results": {
+    "schema_drift_tests": "PASSED",
+    "bad_timestamp_tests": "PASSED",
+    "duplicate_tests": "PASSED",
+    "empty_input_tests": "PASSED"
+  }
+}

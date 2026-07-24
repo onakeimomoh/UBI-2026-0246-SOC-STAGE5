@@ -1,0 +1,16 @@
+CAMPAIGN ANALYSIS - FOUND 3 ATTACKS
+
+Campaign 1: user232
+- Sources: auth, endpoint
+- Total events: 348
+- Pattern: User logged in and copied files to USB
+
+Campaign 2: user314
+- Sources: auth, endpoint
+- Total events: 322
+- Pattern: User logged in and accessed sensitive data
+
+Campaign 3: user178
+- Sources: auth, endpoint
+- Total events: 321
+- Pattern: User logged in and exfiltrated payroll data

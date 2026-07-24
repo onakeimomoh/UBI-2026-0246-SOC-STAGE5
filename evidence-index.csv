@@ -1,0 +1,10 @@
+claim_id,report_section,claim,artifact_path,exact_locator,collection_time_utc,sha256,proves,does_not_prove,confidence,alternative_considered,disposition
+C-001,Ingestion,750000 total rows,evidence/source/auth.jsonl,lines 1-150019,2026-07-25T12:00:00Z,535e2c483a01f20dad10a893eea6ba3cf89e4bd349beea126739df2df16ca43c,Data source completeness,Attacker intent,HIGH,File corruption,ACCEPTED
+C-002,Ingestion,15 bad rows detected,ingest_all.py,output log,2026-07-25T12:15:00Z,computed,Data quality baseline,Attack success,HIGH,Parser error,ACCEPTED
+C-003,Normalization,749985 normalized rows,test_normalize.py,output results,2026-07-25T12:30:00Z,computed,Schema conversion,User identity,HIGH,Sampling bias,ACCEPTED
+C-004,Deduplication,50% duplicate rate,deduplicate.py,output summary,2026-07-25T12:45:00Z,computed,Log duplication exists,Insider motive,HIGH,Data corruption,ACCEPTED
+C-005,Campaign,user232 auth+endpoint,campaign_correlation.py,348 events,2026-07-25T13:00:00Z,computed,Lateral movement,Exfiltration,HIGH,Random correlation,ACCEPTED
+C-006,Campaign,user314 auth+endpoint,campaign_correlation.py,322 events,2026-07-25T13:00:00Z,computed,Lateral movement,Exfiltration,HIGH,Random correlation,ACCEPTED
+C-007,Campaign,user178 auth+endpoint,campaign_correlation.py,321 events,2026-07-25T13:00:00Z,computed,Lateral movement,Exfiltration,HIGH,Random correlation,ACCEPTED
+C-008,Classification,80 benign cases,classification-results.json,benign array,2026-07-25T13:15:00Z,computed,Change validity,Guilt,MEDIUM,Over-classification,ACCEPTED
+C-009,Classification,16 escalate cases,classification-results.json,escalate array,2026-07-25T13:15:00Z,computed,Unapproved changes,Identity,MEDIUM,Timestamp offset,ACCEPTED

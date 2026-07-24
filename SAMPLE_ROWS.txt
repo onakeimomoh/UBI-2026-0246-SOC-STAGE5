@@ -1,0 +1,29 @@
+AUTH:
+{
+  "schema_version": "2",
+  "missing_time": true
+}
+
+DNS:
+{
+  "schema_version": "2",
+  "missing_time": true
+}
+
+ENDPOINT:
+{
+  "schema_version": "2",
+  "missing_time": true
+}
+
+FIREWALL:
+{
+  "schema_version": "2",
+  "missing_time": true
+}
+
+WEB:
+{
+  "schema_version": "2",
+  "missing_time": true
+}

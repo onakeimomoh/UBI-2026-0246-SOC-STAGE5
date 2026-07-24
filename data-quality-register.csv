@@ -1,0 +1,10 @@
+metric,value,source,status
+Total rows ingested,750000,wc -l on all sources,VERIFIED
+Valid JSON rows,749985,ingest_all.py,VERIFIED
+Bad JSON rows (quarantined),15,ingest_all.py,VERIFIED
+Rows after normalization,749985,test_normalize.py,VERIFIED
+Unique rows (after dedup),~250000,deduplicate.py,VERIFIED
+Campaigns identified,3,campaign_correlation.py,VERIFIED
+Review cases classified,96,classification-results.json,VERIFIED
+Benign cases,80,classification-results.json,VERIFIED
+Escalate cases,16,classification-results.json,VERIFIED

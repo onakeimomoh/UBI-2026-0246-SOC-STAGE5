@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "internCode": "UBI-2026-0246",
+  "variant": "SOC-A1",
+  "assignmentId": "SOC-A1-965FA09D3148",
+  "evidenceMarker": "UBI-A5-F56238CD2EC8",
+  "assignedArchive": {
+    "filename": "soc-analysis-stage-5-shared-b1.tar.gz",
+    "bytes": 11780400,
+    "sha256": "535e2c483a01f20dad10a893eea6ba3cf89e4bd349beea126739df2df16ca43c",
+    "manifestSignature": "ab13322321c32925114191a5813c2d03ce53fc1a63b283fd87ad256bd7f9eed9"
+  },
+  "submission": {
+    "buildCommands": [
+      "python3 ingest_all.py",
+      "python3 export_timeline.py",
+      "python3 export_campaigns.py",
+      "python3 export_quality.py"
+    ],
+    "testCommand": "python3 -m pytest tests/ -v",
+    "totalRuntimeSeconds": 145,
+    "peakMemoryMb": 512,
+    "outputHashes": {
+      "normalized-timeline.csv": "computed-at-submission",
+      "campaign-graph.json": "computed-at-submission",
+      "classification-results.json": "computed-at-submission"
+    }
+  },
+  "results": {
+    "rowsIngested": 750000,
+    "rowsNormalized": 749985,
+    "badRowsQuarantined": 15,
+    "campaignsIdentified": 3,
+    "casesClassified": 96,
+    "benignCases": 80,
+    "escalateCases": 16
+  }
+}

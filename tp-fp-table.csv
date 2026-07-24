@@ -1,0 +1,57 @@
+case_id,classification,verdict,evidence,confidence
+CHG-8020AC52D6,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-D5B92FAEA4,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-AE53556151,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-33FACECFCD,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-82DC8A193F,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-6849208BD5,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-FF26431B32,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-7714112E0E,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-1E5C80B556,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-2947F7EAD3,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-F19EB1CFC6,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-532CB2674A,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-B2089314DC,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-1BD00AB3E4,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-72DFEA33D9,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-8AC4F86FA5,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-DA6B4F38E0,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-A8B9AE7F1B,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-E50AEDFA0E,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-FD297EF6A5,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-D49F9DF586,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-5E967F465D,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-A92613D08A,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-FA5D512431,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-9B08725D76,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-2B163A7197,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-8024CEDDA3,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-7A73913795,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-23D714CEA6,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-F58400F5C4,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-03DEADF615,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-436E603899,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-D73C237630,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-3454C8FA15,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-B2ACD23FF7,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-2FCE90BD59,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-F5740318F3,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-C78197379E,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-C9FAF00E1B,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-82C6E0CE8C,BENIGN,TRUE_NEGATIVE,Approved change with valid timestamp,HIGH
+CHG-E8C6788E56,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-AA0F0D3774,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-820128036D,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-75983852EC,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-E0700DE495,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-11498E2F8B,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-CAD2C3331D,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-06AC999C80,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-E27447104C,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-9FD1381756,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-2EEB2077D3,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-31354B228A,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-F80DEB043F,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-2F80CC4DE2,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-BE35CF8141,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
+CHG-D57C3DDEFF,ESCALATE,TRUE_POSITIVE,Unapproved or timestamp mismatch,HIGH
